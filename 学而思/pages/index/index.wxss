@@ -1,6 +1,5 @@
-
 .navbar{
-  border: 0px solid red;
+  border: 1px solid red;
   overflow-x: scroll;
   white-space: nowrap;
   background: #fff;
@@ -16,5 +15,10 @@
 }
 .navbar .item.active{
   color: #ff0000;
-  font-size: 18px;
+  font-size: 18px;  
+}
+
+.test-01{
+  height: 100vh;
+  background-color: #ff0000;
 }

@@ -1,5 +1,6 @@
 {
   "navigationBarTitleText": "学而思网校",  
+  "navigationStyle": "custom",
   "usingComponents": {
     
   }

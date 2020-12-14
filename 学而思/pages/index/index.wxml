@@ -1,20 +1,33 @@
+<view class="page-body" style="position: fixed; top: {{pageBody.top}}px; height: {{pageBody.height}}px;">
 
-<!--导航条-->
-<view class="navbar">
-  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
-</view>
- 
-<!--首页-->
-<view hidden="{{currentTab!==0}}">
-  tab_01
-</view>
- 
-<!--搜索-->
-<view hidden="{{currentTab!==1}}">
-  tab_02
-</view>
- 
-<!--我-->
-<view hidden="{{currentTab!==2}}">
-  tab_03
+  <!-- 标题区域 -->
+  <view class="header_title" style="height: {{headerTitle.height}}px; line-height: {{headerTitle.height}}px;">
+    {{headerTitle.title}}</view>
+
+  <!-- 内容区域 -->
+  <view class="content_view" style="height: {{contentView.height}}px;">
+
+    <!--导航条-->
+    <view class="navbar" style="margin-top:{{view.top}}px;height:{{view.Height}}px;">
+      <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+        bindtap="navbarTap">{{item}}</text>
+    </view>
+
+    <!--首页-->
+    <view hidden="{{currentTab!==0}}" class="test-01">
+      tab_01
+    </view>
+
+    <!--搜索-->
+    <view hidden="{{currentTab!==1}}">
+      tab_02
+    </view>
+
+    <!--我-->
+    <view hidden="{{currentTab!==2}}">
+      tab_03
+    </view>
+
+  </view>
+
 </view>

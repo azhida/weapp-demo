@@ -1,1 +1,16 @@
+.page-body{
+  border: 0px solid red;
+  width: 100%;
+}
 
+.header_title{
+  border: 0px solid red;
+  text-align: center;
+}
+
+.content_view{
+  border: 0px solid blue;
+  position: relative;
+  min-height: 500px;
+  overflow-y: scroll;
+}
