@@ -1,0 +1,19 @@
+
+<view class="page_body">
+
+  <view class="user-info">
+  <image mode="{{item.mode}}" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+  <text>名称</text>
+</view>
+
+<view class="section">
+  <view class="section_title">我的订单
+    <image src="/imgs/arrow-right.png"></image>
+  </view>
+  <view class="section_title">我的客服
+    <image src="/imgs/arrow-right.png"></image>
+  </view>
+</view>
+
+<view class="logout-btn">退出登录</view>
+</view>

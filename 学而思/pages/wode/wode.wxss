@@ -1,0 +1,57 @@
+.page_body{
+  width: 90vw;
+  margin: auto;
+}
+
+.user-info{
+  border: 0px solid red;
+  position: relative;
+  margin: 10vw 0;
+}
+.user-info>image{
+  width: 20vw; 
+  height: 20vw; 
+  border-radius: 50%;
+}
+.user-info>text{
+  border: 0px solid red;
+  position: absolute;
+  left: 22vw;
+  top: 0;
+  display: block;
+  height: 20vw;
+  line-height: 20vw;
+}
+
+.section{
+  margin-bottom: 15vw;
+}
+
+.section_title{
+  height: 15vw;
+  line-height: 15vw;
+  font-size: 14px;
+  border-bottom: 1px solid #dfdfdf;
+  color: #707070;
+  position: relative;
+}
+.section_title>image{
+position: absolute;
+right: 0;
+top: 5vw;
+height: 5vw;
+width: 5vw;
+}
+
+
+.logout-btn{
+  width: 90vw;
+  border: 1px solid red;
+  border-radius: 2px;
+  background-color: #ff0000;
+  padding: 3vw 0;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+}
+
