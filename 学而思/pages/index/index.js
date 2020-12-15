@@ -14,13 +14,82 @@ Page({
     },
     contentView: { // 内容区域参数
       height: 0
-    }
+    },
+    gradeView: {
+      hidden: false
+    },
+    gradeData: [
+      {
+        A: '幼儿园',
+        B: ['小班', '中班', '大班']
+      },
+      {
+        A: '小学',
+        B: [
+          '一年级',
+          '二年级',
+          '三年级',
+          '四年级',
+          '五年级',
+          '六年级',
+          ]
+      }
+      , {
+        A: '初中',
+        B: [
+          '预初',
+          '初一',
+          '初二',
+          '初三',
+        ]
+      }
+      , {
+        A: '高中',
+        B: ['高一', '高二', '高三']
+      }
+
+    ],
+    gradeClassCurrentTab: '小班'
 
   },
-  navbarTap: function (e) {
+  fnOpenGradeView: function (e) {
+    // 打开年级列表
     this.setData({
-      currentTab: e.currentTarget.dataset.idx
+      gradeView: {
+        hidden: false
+      }
     })
+    wx.hideTabBar();
+
+  },
+  fnCloseGradeView: function (e) {
+    // 关闭年级列表
+    this.setData({
+      gradeView: {
+        hidden: true
+      }
+    })
+    wx.showTabBar();
+
+  },
+  fnSelectGrade: function(e){
+    // 选择 年级班级
+console.log(e);
+
+this.setData({
+  gradeClassCurrentTab: e.currentTarget.dataset.grade_class_name,
+ 
+})
+
+  },
+
+  navbarTap: function (e) {
+
+    this.setData({
+      currentTab: e.currentTarget.dataset.idx,
+      aaaHidden: false
+    })
+
   },
   onLoad: function (params) {
 

@@ -1,5 +1,19 @@
-.navbar{
-  border: 1px solid red;
+.index-top-view {
+  border: 0px solid red;
+  height: 10vw;
+  line-height: 10vw;
+  width: 90vw;
+  margin: 5vw auto;
+}
+
+.index-top-view>text:first-of-type {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* 学科 start */
+.subject-list {
+  border: 0px solid red;
   overflow-x: scroll;
   white-space: nowrap;
   background: #fff;
@@ -7,18 +21,88 @@
   width: 95vw;
   margin: auto;
 }
-.navbar .item{
+
+.subject-list .item {
   padding: 0 3vw;
   text-align: center;
   border: 0px solid red;
   font-size: 14px;
 }
-.navbar .item.active{
+
+.subject-list .item.active {
   color: #ff0000;
-  font-size: 18px;  
+  font-size: 18px;
 }
 
-.test-01{
+/* 学科 end */
+
+/* 年级 start */
+
+.grade-view {
+  width: 100vh;
+  position: fixed;
   height: 100vh;
-  background-color: #ff0000;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
 }
+
+.grade-list {
+  background-color: #fff;
+  position: fixed;
+  top: 15%;
+  left: 10%;
+  width: 80%;
+  height: 70%;
+  border-radius: 10px;
+}
+
+.grade-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5% 0;
+}
+
+.grade-item {
+  border: 0px solid red;
+  width: 90%;
+  margin: 1vw auto;
+}
+
+.grade-item-A {
+  border: 0px solid red;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+.grade-item-B {
+  border: 0px solid red;
+
+}
+
+.grade-item-B>text {
+  border: 0px solid red;
+  border-radius: 15px;
+  font-size: 15px;
+  width: 30%;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  margin-right: 3%;
+  background-color: #dfdfdf;
+  text-align: center;
+  margin-bottom: 7px;
+
+}
+
+.grade-item-B>text:last-of-type {
+  margin-right: 0;
+}
+
+.grade-list .active {
+  background-color: #ffb6c1;
+  color: #ff0000;
+}
+
+/* 年级 end */

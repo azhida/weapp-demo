@@ -1,3 +1,13 @@
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.clear{
+  clear: both;
+}
+
 .page-body{
   border: 0px solid red;
   width: 100%;

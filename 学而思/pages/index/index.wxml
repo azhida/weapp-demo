@@ -7,8 +7,13 @@
   <!-- 内容区域 -->
   <view class="content_view" style="height: {{contentView.height}}px;">
 
-    <!--导航条-->
-    <view class="navbar" style="margin-top:{{view.top}}px;height:{{view.Height}}px;">
+    <view class="index-top-view">
+      <text class="left" bindtap="fnOpenGradeView">{{gradeClassCurrentTab}}</text>
+      <text class="right">全国</text>
+    </view>
+
+    <!--学科-->
+    <view class="subject-list" style="margin-top:{{view.top}}px;height:{{view.Height}}px;">
       <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
         bindtap="navbarTap">{{item}}</text>
     </view>
@@ -27,6 +32,35 @@
     <view hidden="{{currentTab!==2}}">
       tab_03
     </view>
+
+  </view>
+
+</view>
+
+<view class="grade-view" hidden="{{gradeView.hidden}}" bindtap="fnCloseGradeView">
+
+  <view class="grade-list" catchtap='fnClickGradeList'>
+
+    <view class="grade-title">设置年级</view>
+
+    <!-- <view class="grade-item">
+      <view class="grade-item-A">幼儿园</view>
+      <view class="grade-item-B">
+        <text catchtap='fnSelectGrade'>小班</text>
+        <text catchtap='fnSelectGrade'>中班</text>
+        <text catchtap='fnSelectGrade'>大班</text>
+      </view>
+    </view> -->
+
+    <view class="grade-item" wx:for="{{gradeData}}" wx:for-item="gradeDataItem" wx:for-indexx="gradeDataIndex">
+      <view class="grade-item-A">{{gradeDataItem.A}}</view>
+      <view class="grade-item-B">
+        <text data-grade_class_name="{{classDataItem}}" class="{{gradeClassCurrentTab==classDataItem ? 'active' : ''}}" catchtap='fnSelectGrade' wx:for="{{gradeDataItem.B}}" wx:for-item="classDataItem" wx:for-indexx="classDataIndex">{{classDataItem}}</text>
+      </view>
+    </view>
+
+
+
 
   </view>
 
