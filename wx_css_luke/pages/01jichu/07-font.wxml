@@ -1,0 +1,23 @@
+<view>
+
+  <navigator>
+    font-size 字体大小
+  </navigator>
+
+  <navigator>
+    font-size 字体大小
+  </navigator>
+
+  <navigator>
+    font-style 字体样式
+  </navigator>
+
+  <navigator>
+    font-varian 字体变形
+  </navigator>
+
+  <navigator>
+    font-weight 字体加租
+  </navigator>
+
+</view>

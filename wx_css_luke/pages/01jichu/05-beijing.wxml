@@ -1,0 +1,3 @@
+<view class="c01">文本01</view>
+<view class="c02">文本02</view>
+<view><text class="c03">文本03</text></view>

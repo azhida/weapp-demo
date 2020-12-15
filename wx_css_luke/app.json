@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/menu2/index",
+    "pages/01jichu/01-yuansu",
+    "pages/01jichu/02-id",
+    "pages/01jichu/03-class",
+    "pages/01jichu/04-css",
+    "pages/01jichu/05-beijing",
+    "pages/01jichu/06-text",
+    "pages/01jichu/text/text-decoration",
+    "pages/01jichu/text/word-spacing",
+    "pages/01jichu/text/letter-spacing",
+    "pages/01jichu/text/direction",
+    "pages/01jichu/07-font",
+    "pages/01jichu/font/font-size",
+    "pages/01jichu/font/font-style"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "小程序开发-样式",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#999999",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "基础",
+        "iconPath": "images/a-off.png",
+        "selectedIconPath": "images/a-on.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "框模型",
+        "iconPath": "images/b-off.png",
+        "selectedIconPath": "images/b-on.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "定位",
+        "iconPath": "images/c-off.png",
+        "selectedIconPath": "images/c-on.png"
+      },
+      {
+        "pagePath": "pages/menu2/index",
+        "text": "选择器",
+        "iconPath": "images/d-off.png",
+        "selectedIconPath": "images/d-on.png"
+      },
+      {
+        "pagePath": "pages/menu2/index",
+        "text": "综合",
+        "iconPath": "images/e-off.png",
+        "selectedIconPath": "images/e-on.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

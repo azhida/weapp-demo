@@ -1,0 +1,5 @@
+<!-- 元素选择器 -->
+<view>
+<text>我是文本</text>
+<text> | 我是文本2</text>
+</view>

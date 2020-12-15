@@ -1,0 +1,9 @@
+<view>默认字体</view>
+
+<view class="cls01">字体1</view>
+<view class="cls02">字体2</view>
+<view class="cls03">字体3</view>
+
+<view class="cls04">
+  <text class="cls03">字体4</text>
+</view>

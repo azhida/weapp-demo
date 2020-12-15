@@ -1,0 +1,15 @@
+.cls01{
+  font-size: 25px;
+}
+
+.cls02{
+  font-size: 150%;
+}
+
+.cls03{
+  font-size: 1em;
+}
+
+.cls04{
+  font-size: 25px;
+}

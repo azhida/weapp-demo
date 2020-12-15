@@ -1,0 +1,33 @@
+<view>
+
+  <navigator url="">01-text-align水平对齐</navigator>
+  <navigator>02-text-indent文本缩进</navigator>
+  <navigator url="/pages/01jichu/text/text-decoration">03-text-decoration文本装饰</navigator>
+  <navigator url="/pages/01jichu/text/text-overflow">04-text-overflow文本溢出</navigator>
+  <navigator url="/pages/01jichu/text/text-shadow">05-text-shadow文本阴影</navigator>
+
+  <navigator url="/pages/01jichu/text/text-transform">
+    06-text-transform字符转换
+  </navigator>
+
+  <navigator url="/pages/01jichu/text/text-transform">
+    07-word-break自动换行的处理
+  </navigator>
+
+  <navigator url="/pages/01jichu/text/word-wrap">
+    08-word-wrap允许长单词换行
+  </navigator>
+
+  <navigator url="/pages/01jichu/text/word-spacing">
+    09-word-spacing 单词间隔
+  </navigator>
+
+  <navigator url="/pages/01jichu/text/word-spacing">
+    10-letter-spacing 字母间隔
+  </navigator>
+
+  <navigator url="/pages/01jichu/text/direction">
+    direction 文本方向
+  </navigator>
+
+</view>

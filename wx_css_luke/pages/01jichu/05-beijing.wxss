@@ -1,0 +1,11 @@
+.c01{
+  background-color: gainsboro;
+}
+
+.c02{
+  background: gold;
+}
+
+.c03{
+  background: black;
+}

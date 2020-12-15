@@ -1,0 +1,6 @@
+<view>
+
+  <text class="t1">文本内容01</text>
+  <text style="color: blue;">文本内容02</text>
+
+</view>

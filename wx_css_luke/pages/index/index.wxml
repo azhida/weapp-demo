@@ -1,0 +1,30 @@
+<view>
+  <navigator url='/pages/01jichu/01-yuansu'>
+    01-元素选择器
+  </navigator>
+
+  <navigator url='/pages/01jichu/02-id'>
+    02-ID选择器
+  </navigator>
+
+  <navigator url='/pages/01jichu/03-class'>
+    03-class类选择器
+  </navigator>
+
+  <navigator url='/pages/01jichu/04-css'>
+    04-小程序中样式的几种写法
+  </navigator>
+
+  <navigator url='/pages/01jichu/05-beijing'>
+    05-背景颜色的写法
+  </navigator>
+
+  <navigator url='/pages/01jichu/06-text'>
+    06-text文本
+  </navigator>
+
+  <navigator url='/pages/01jichu/07-font'>
+    07-font字体
+  </navigator>
+
+</view>

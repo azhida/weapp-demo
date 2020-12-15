@@ -1,0 +1,10 @@
+page{
+  background-color: gainsboro;
+}
+view{
+  background-color: brown;
+}
+
+text{
+  color: white;
+}

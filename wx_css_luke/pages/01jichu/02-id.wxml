@@ -1,0 +1,4 @@
+<view>
+<text>普通文本</text>
+<text id='my'>ID选择器里面的文本</text>
+</view>
