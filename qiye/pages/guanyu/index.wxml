@@ -1,0 +1,40 @@
+<view class="gy1">
+  <image src="/images/gy.jpg"></image>
+</view>
+
+<view class="text">
+  <view class="line_y"></view>
+  <text>关于我们</text>
+</view>
+
+<view class="wx-cells">
+  <view class="wx-cell">
+    <image class="wx-cell-icon" src="/images/guanyu_jieshao.png"></image>
+    <text class="wx-cell-text">公司介绍</text>
+    <image class="wx-cell-arrow" src="/images/right-gray.png"></image>
+  </view>
+
+  <navigator url="/pages/guanyu/guanyu_info?id={{123}}">
+    <view class="wx-cell">
+    <image class="wx-cell-icon" src="/images/guanyu_youshi.png"></image>
+    <text class="wx-cell-text">公司优势</text>
+    <image class="wx-cell-arrow" src="/images/right-gray.png"></image>
+  </view>
+  </navigator>
+
+
+  <view class="wx-cell" data-route='/pages/guanyu/lianxiwomen' bindtap="navToPage">
+    <image class="wx-cell-icon" src="/images/guanyu_lianxi.png"></image>
+    <text class="wx-cell-text">联系我们</text>
+    <image class="wx-cell-arrow" src="/images/right-gray.png"></image>
+  </view>
+
+  <view class="wx-cell">
+
+    <button bindtap="calling">点击拨打客服电话</button>
+    
+    
+  </view>
+
+</view>
+

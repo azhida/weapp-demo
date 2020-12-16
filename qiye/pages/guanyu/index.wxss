@@ -1,0 +1,62 @@
+.gy1 image{
+  width: 750rpx;
+  height: 200rpx;
+}
+
+.line_y{
+  width: 3px;
+  height: 18px;
+  display: inline-block;
+  background-color: lightgreen;
+}
+
+view.text{
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+  font-size: 18px;
+  color: aliceblue;
+  background-color: silver;
+}
+
+view.text text{
+  margin-left: 10px;
+  line-height: 18px;
+}
+
+.wx-cells{
+  border: 0px solid red;
+  margin: 2vw 0;
+}
+
+.wx-cell{
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin-top: 2vw;
+  padding: 0 3vw;
+  height: 10vw;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.wx-cell:last-of-type{
+  height: auto;
+  padding: 2vw 0;
+}
+
+.wx-cell-icon{
+  width: 6vw;
+  height: 6vw;
+}
+
+.wx-cell-text{
+  margin-left: 2vw;
+}
+
+.wx-cell-arrow{
+  position: absolute;
+  right: 3vw;
+  width: 4vw;
+  height: 4vw;
+}

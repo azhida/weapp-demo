@@ -1,0 +1,99 @@
+.swiper{
+  border: 0px solid red;
+  width: 100vw;
+  height: 40vw;
+
+}
+
+.slide-image{
+  width: 100vw;
+  height: 40vw;
+}
+
+.gy1 image{
+  width: 750rpx;
+  height: 200rpx;
+}
+
+.line_y{
+  width: 3px;
+  height: 18px;
+  display: inline-block;
+  background-color: lightgreen;
+}
+
+view.text{
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+  font-size: 18px;
+  color: aliceblue;
+  background-color: silver;
+}
+
+view.text text{
+  margin-left: 10px;
+  line-height: 18px;
+}
+
+.nav-view{
+  border: 0px solid red;
+  display: inline-block;
+  width: 25%;
+  padding: 2vw 0;
+  text-align: center;
+}
+.nav-image{
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+/* 最新案例 */
+.line{
+  display: flex;
+  margin: 1rpx;
+  border: #ddd solid 1px;
+  padding: 1rpx;
+}
+.toutiao{
+  padding: 10rpx;
+}
+.toutiao-img{
+  width: 80px;
+  height: 80px;
+}
+.two-line-text{
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+}
+.text-center{
+  margin: 0 auto;
+}
+
+.txt1{
+  margin: 3px;
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.txt2{
+  margin: 3px;
+  font-size: 12px;
+  color: #656565;
+  white-space: nowrap;
+}
+.txt3{
+  margin: 3px;
+  font-size: 13px;
+  color: #656565;
+  white-space: nowrap;
+}
+
+/* 最新资讯 */
+.node-item{
+  border: 0px solid red;
+  padding: 2vw 0 0 2vw;
+}

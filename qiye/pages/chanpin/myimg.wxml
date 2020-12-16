@@ -1,0 +1,10 @@
+
+<text decode="true">&nbsp; &lt; &gt; &amp; &apos; &ensp; &emsp;</text>
+
+<view  wx:for="{{wodetupian}}" wx:for-item="item">
+  <view >{{item.biaoti}}</view>
+  <view >
+    <image style="width: 100px; height: 100px;" src="{{item.dizhi}}"></image>
+  </view>
+</view>
+

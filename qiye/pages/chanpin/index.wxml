@@ -1,0 +1,15 @@
+<navigator url="/pages/chanpin/mybtn">
+  <text>表单组件button按钮</text>
+</navigator>
+
+<navigator url="/pages/chanpin/myimg">
+  <text>媒体组件image图片</text>
+</navigator>
+
+<navigator url="/pages/chanpin/myshijian">
+  <text>事件和函数演示</text>
+</navigator>
+
+<navigator url="/pages/chanpin/myfor">
+  <text>for循环</text>
+</navigator>

@@ -1,0 +1,16 @@
+<view class="">
+
+  <view class="topic-detail">
+    <view class="topic-owner">
+      <view class="topic-tit">{{detail.title}}{{detail.id}}</view>
+    </view>
+    <view class="topic-info">
+      <text>{{detail.member.username}}</text>
+      <text class="topic-created">{{detail.created}}</text>
+    </view>
+    <view class="topic-desc">{{detail.content}}</view>
+  </view>
+
+  <loading hidden="{{hidden}}">加载中</loading>
+
+</view>

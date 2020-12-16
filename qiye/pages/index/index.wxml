@@ -1,0 +1,43 @@
+<import src="/pages/moban/moban_index.wxml"></import>
+
+<view>
+  <template is="index_index_scroll_tmpl" data="{{...index_index_scroll_tmpl}}"></template>
+</view>
+
+<view class="text">
+  <view class="line_y"></view>
+  <text>服务项目</text>
+</view>
+<view>
+  <template is="index_index_navs_tmpl" data="{{...index_index_navs_tmpl}}"></template>
+</view>
+
+<view class="text">
+  <view class="line_y"></view>
+  <text>最新案例</text>
+</view>
+<view class="line toutiao">
+  <image class="toutiao-img" src="/images/anli01.jpg"></image>
+
+  <view class="two-line-text">
+    <text class="text-center txt1">杭州某小区门禁系统</text>
+    <text class="text-center txt2">工程时间：2017年/3个月</text>
+    <text class="text-center txt3">覆盖全小区东门和南门，以及楼道系统</text>
+
+  </view>
+</view>
+
+<view class="text">
+  <view class="line_y"></view>
+  <text>最新资讯</text>
+</view>
+<view>
+  <block wx:for="{{zixun}}">
+    <view class="node-item">
+      <navigator url="/pages/zixun/zixun_xinxi?id={{item.id}}" hover-class="navigator-hover">
+        <text class="node-title">{{item.title}}</text>
+      </navigator>
+      
+    </view>
+  </block>
+</view>

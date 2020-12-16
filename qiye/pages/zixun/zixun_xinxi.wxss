@@ -1,0 +1,24 @@
+.container{
+  width: 90vw;
+  margin: auto;
+}
+
+.topic-detail{
+  width: 90vw;
+  margin: auto;
+}
+
+.topic-tit{
+  font-size: 18px;
+  margin: 3vw 0;
+  font-weight: bold;
+}
+
+.topic-info{
+  font-size: 14px;
+  margin-bottom: 3vw;
+}
+
+.topic-created{
+  margin-left: 2vw;
+}
